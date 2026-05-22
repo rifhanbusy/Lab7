@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="#FFFFFF"
+        tools:context=".MainActivity">
+
+        <!-- Phone Call Button -->
+        <ImageButton
+            android:id="@+id/btnCall"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF9800"
+            android:background="@android:drawable/btn_default"
+            android:padding="16dp"
+            android:src="@android:drawable/ic_menu_call"
+            android:contentDescription="@string/call" />
+
+        <!-- Send Message Button -->
+        <ImageButton
+            android:id="@+id/btnMessage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#4CAF50"
+            android:background="@android:drawable/btn_default"
+            android:padding="16dp"
+            android:src="@android:drawable/ic_dialog_dialer"
+            android:contentDescription="@string/send_message" />
+
+        <!-- Open Website Button -->
+        <ImageButton
+            android:id="@+id/btnWebsite"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#03A9F4"
+            android:background="@android:drawable/btn_default"
+            android:padding="16dp"
+            android:src="@android:drawable/ic_menu_view"
+            android:contentDescription="@string/website" />
+
+        <!-- Send Email Button -->
+        <ImageButton
+            android:id="@+id/btnEmail"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#9C27B0"
+            android:background="@android:drawable/btn_default"
+            android:padding="16dp"
+            android:src="@android:drawable/ic_dialog_email"
+            android:contentDescription="@string/send_email" />
+
+    </LinearLayout>
